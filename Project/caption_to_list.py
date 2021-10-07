@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
-
+# THIS IS STALE, NEEDS UPDATE FROM NOTEBOOK'
 
 import pandas as pd
 import numpy as np
@@ -13,6 +13,7 @@ from nltk.corpus import stopwords
 import itertools
 import spacy
 nlp = spacy.load('en_core_web_sm')
+from sklearn.feature_extraction.text import TfidfVectorizer
 
 
 # ### Objective - Use the raw captions from scrapped data and convert it into a list of words and tf/idf
