@@ -1,37 +1,29 @@
-## Welcome to GitHub Pages
+# Unstructured Data Processing - NLP, Image analytics
+Contains coursework, assignment and projects from UT's Unstructured Data Processing course.
 
-You can use the [editor on GitHub](https://github.com/vicgpt/Unstructured-Data-Analytics/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+## Car Brands Text Analytics
+Scrapped user comments data from Edmunds website followed by analysis on brand perceptions amidst users.
+- Data Scrapper using Selenium
+- Validating Zipf's law
+- Text cleaning and frequency based data-cuts
+- Tf-Idf and Lift analysis
+- Multi-dimensional Scaled plots to visualize brand differences
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Beer Review
+Scrapped data from pertinent beer review websites.
+- Tokenization, POS tagging and cleaning text data
+- Cosine distances using CountVectorizers and Spacy word-embeddings
+- Tf-Idf and Lift analysis
 
-### Markdown
+## Project
+Scrapped both image and text data from instagram and analyzed as below to differentiate Adidas' vs Nike's social media engagements.
+- Lemmatization, Tf-Idf and Wordclouds to understand text
+- Topic Modelling to cluster documents into topics
+- Named Entity Recognition to peel out additional details from text
+- Google analytics to tag iamges
+- Extract facial expression to get general sense of sentiment, if possible
+- Analyze difference between Nike and Adidas, results detailed in Brand-Analytics.pdf
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/vicgpt/Unstructured-Data-Analytics/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
